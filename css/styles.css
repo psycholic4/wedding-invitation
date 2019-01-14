@@ -1,0 +1,143 @@
+@font-face { font-family: 'UhBeemysen'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'S-CoreDream-3Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body {
+    line-height: 1.5
+}
+
+ul {
+    list-style: disc inside;
+}
+
+h1 {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.story-message {
+    font-size: 300%;
+    font-family: 'UhBeemysen', serif;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-top: 1.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-image {
+    width: 100%;
+    height: 100%;
+    background-image : url('../images/bolim_dongmin.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+#popup-store {
+    width: 100vw;
+}
+
+#popup-store-image {
+    width: 100%;
+    height: 75vw;
+    background-image : url('../images/popup-store.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#first-travel {
+    width: 100vw;
+}
+
+#first-travel-image {
+    width: 100%;
+    height: 75vw;
+    background-image : url('../images/first-travel.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#facing-each-other {
+    width: 100vw;
+}
+
+#facing-each-other-image {
+    width: 100%;
+    height: 75vw;
+    background-image : url('../images/facing-each-other.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#be-merry {
+    width: 100vw;
+}
+
+#be-merry-image {
+    width: 100%;
+    height: 75vw;
+    background-image : url('../images/be-merry.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#countdown {
+    width: 100vw;
+    height: 75vw;
+    position: relative;
+}
+
+#countdown-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image : url('../images/countdown.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#countdown-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    font-family: 'UhBeemysen', serif;
+    color: white;
+    text-align: center;
+}
+
+#location {
+    width: 92vw;
+    max-width: 600px !important;
+    margin: 2em auto;
+}
+
+#location * {
+    font-family: 'S-CoreDream-3Light'
+}
+
+#location ul {
+    margin-left: 16px;
+}
+
+#location li span {
+    position: relative;
+    left: -0.5em;
+}
+
+#map {
+    width: 100%;
+    padding-top: 75%
+}
