@@ -21,13 +21,13 @@ strong {
 #main {
     width: 100vw;
     height: 100vh;
-    background-color: #9090c0;
+    background-color: #9091c1;
 }
 
 #main-image {
     width: 100%;
     height: 100%;
-    background-image : url('../images/main.png');
+    background-image : url('../images/main.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -59,13 +59,13 @@ strong {
 #info {
     width: 100vw;
     height: 100vh;
-    background-color: #f7ebde;
+    background-color: #f7ebdd;
 }
 
 #info-image {
     width: 100%;
     height: 100%;
-    background-image : url('../images/info.png');
+    background-image : url('../images/info.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
