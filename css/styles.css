@@ -23,20 +23,21 @@ strong {
     font-family: 'UhBeemysen', serif;
     text-align: center;
     margin-left: 0.5em;
-    margin-top: 1.5em;
+    margin-top: 1.0em;
     margin-right: 0.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.0em;
 }
 
 #main {
     width: 100vw;
     height: 100vh;
+    background-color: #9090c0;
 }
 
 #main-image {
     width: 100%;
     height: 100%;
-    background-image : url('../images/bolim_dongmin.jpg');
+    background-image : url('../images/main.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -52,6 +53,30 @@ strong {
     background-image : url('../images/popup-store.jpg');
     background-size: cover;
     background-position: center center;
+}
+
+#dongmin-before {
+    width: 100vw;
+}
+
+#dongmin-before-image {
+    width: 100%;
+    height: 100vw;
+    background-image : url('../images/dongmin-before.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#dongmin-after {
+    width: 100vw;
+}
+
+#dongmin-after-image {
+    width: 100%;
+    height: 100vw;
+    background-image : url('../images/dongmin-after.jpg');
+    background-size: cover;
+    background-position: center bottom;
 }
 
 #first-travel {
@@ -90,17 +115,14 @@ strong {
     background-position: center center;
 }
 
-#countdown {
+#info {
     width: 100vw;
-    height: 75vw;
-    position: relative;
 }
 
-#countdown-image {
-    position: absolute;
+#info-image {
     width: 100%;
-    height: 100%;
-    background-image : url('../images/countdown.jpg');
+    height: 75vw;
+    background-image : url('../images/info.jpg');
     background-size: cover;
     background-position: center center;
 }
@@ -138,6 +160,10 @@ strong {
 }
 
 #map {
+    width: 100%;
+}
+
+#naver-map {
     width: 100%;
     padding-top: 75%
 }
