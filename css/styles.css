@@ -18,16 +18,6 @@ strong {
     font-weight: bold;
 }
 
-.story-message {
-    font-size: 300%;
-    font-family: 'UhBeemysen', serif;
-    text-align: center;
-    margin-left: 0.5em;
-    margin-top: 1.0em;
-    margin-right: 0.5em;
-    margin-bottom: 1.0em;
-}
-
 #main {
     width: 100vw;
     height: 100vh;
@@ -43,101 +33,42 @@ strong {
     background-position: center center;
 }
 
-#popup-store {
+.story-container {
     width: 100vw;
+    padding: 0;
+    margin: 0;
 }
 
-#popup-store-image {
-    width: 100%;
+.story-image {
+    width: 100vw;
     height: 75vw;
-    background-image : url('../images/popup-store.jpg');
     background-size: cover;
     background-position: center center;
 }
 
-#dongmin-before {
-    width: 100vw;
-}
-
-#dongmin-before-image {
-    width: 100%;
-    height: 100vw;
-    background-image : url('../images/dongmin-before.jpg');
-    background-size: cover;
-    background-position: center center;
-}
-
-#dongmin-after {
-    width: 100vw;
-}
-
-#dongmin-after-image {
-    width: 100%;
-    height: 100vw;
-    background-image : url('../images/dongmin-after.jpg');
-    background-size: cover;
-    background-position: center bottom;
-}
-
-#first-travel {
-    width: 100vw;
-}
-
-#first-travel-image {
-    width: 100%;
-    height: 75vw;
-    background-image : url('../images/first-travel.jpg');
-    background-size: cover;
-    background-position: center center;
-}
-
-#facing-each-other {
-    width: 100vw;
-}
-
-#facing-each-other-image {
-    width: 100%;
-    height: 75vw;
-    background-image : url('../images/facing-each-other.jpg');
-    background-size: cover;
-    background-position: center center;
-}
-
-#be-merry {
-    width: 100vw;
-}
-
-#be-merry-image {
-    width: 100%;
-    height: 75vw;
-    background-image : url('../images/be-merry.jpg');
-    background-size: cover;
-    background-position: center center;
+.story-message {
+    font-size: 8.5vw;
+    font-family: 'UhBeemysen', serif;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-top: 1.0em;
+    margin-right: 0.5em;
+    margin-bottom: 1.0em;
 }
 
 #info {
     width: 100vw;
+    height: 100vh;
+    background-color: #f7ebde;
 }
 
 #info-image {
     width: 100%;
-    height: 75vw;
-    background-image : url('../images/info.jpg');
-    background-size: cover;
+    height: 100%;
+    background-image : url('../images/info.png');
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center center;
-}
-
-#countdown-message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 0;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 500%;
-    font-family: 'UhBeemysen', serif;
-    color: white;
-    text-align: center;
 }
 
 #location {
